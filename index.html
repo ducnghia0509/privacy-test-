@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy</title>
-  <style>
-    body {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 20px;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
-    h1 { color: #1877F2; }
-  </style>
+<meta charset="UTF-8">
+<title>Privacy Policy — Auto Post Bot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 720px;
+    margin: 48px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    color: #1a1a1a;
+  }
+  h1 { font-size: 26px; margin-bottom: 4px; }
+  .updated { color: #666; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 18px; margin-top: 32px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  .contact { margin-top: 32px; padding-top: 16px; border-top: 1px solid #ddd; color: #444; }
+</style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
 
-  <p>Last updated: July 28, 2026</p>
+<h1>Privacy Policy — Auto Post Bot</h1>
+<p class="updated">Last updated: August 10, 2026</p>
 
-  <p>This application uses the Facebook Graph API to publish content to Facebook Pages authorized by the user.</p>
+<p>
+  Auto Post Bot is an internal tool used solely by our marketing team to
+  automatically publish video content to our company's own TikTok account.
+  This app is not distributed publicly and is not used by any external users.
+</p>
 
-  <h2>Information We Collect</h2>
-  <p>We only access the permissions explicitly granted by the user, such as Page access tokens required to publish posts.</p>
+<h2>Data We Access via TikTok's API</h2>
+<ul>
+  <li>Basic profile information (display name) of the TikTok account that authorized this app, used only to confirm which account is connected.</li>
+  <li>Access to the Content Posting API (<code>video.publish</code> scope), used only to publish video posts submitted by our internal team to the connected TikTok account.</li>
+</ul>
 
-  <h2>How We Use Information</h2>
-  <p>The information is used solely to perform the actions requested by the user, including publishing content to Facebook Pages.</p>
+<h2>Data We Do Not Do</h2>
+<ul>
+  <li>We do not collect or process data belonging to any TikTok users other than the account owner who explicitly authorized this app.</li>
+  <li>We do not sell, share, or use TikTok data for advertising, profiling, or any purpose other than publishing the account owner's own content.</li>
+  <li>We do not use TikTok data to train machine learning models.</li>
+</ul>
 
-  <h2>Data Sharing</h2>
-  <p>We do not sell, rent, or share your personal information with third parties except as required by law.</p>
+<h2>Data Storage &amp; Retention</h2>
+<p>
+  Access tokens and refresh tokens obtained from TikTok are stored securely on
+  our private server and are never shared with third parties. Video content
+  submitted for posting is stored temporarily and deleted after publishing is
+  complete.
+</p>
 
-  <h2>Contact</h2>
-  <p>If you have any questions regarding this Privacy Policy, please contact us at:</p>
-  <p>Email: your-email@example.com</p>
+<h2>Data Deletion</h2>
+<p>
+  The account owner may revoke this app's access at any time from their
+  TikTok account settings. Doing so immediately invalidates our stored
+  tokens; we delete any remaining stored credentials for that account upon
+  revocation.
+</p>
+
+<div class="contact">
+  <strong>Contact:</strong> [điền email liên hệ của bạn ở đây]
+</div>
+
 </body>
 </html>
